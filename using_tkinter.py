@@ -1,0 +1,10 @@
+from tkinter import *
+nwin= Tk()
+redbutton= Button(nwin, text= "Red", fg= "black", bg= "red")
+redbutton.pack(side= LEFT)
+bluebutton= Button(nwin, text= "Blue", fg= "black", bg= "blue")
+bluebutton.pack(side= RIGHT)
+yellowbutton= Button(nwin, text= "Yellow", fg= "black", bg= "yellow")
+yellowbutton.pack(side= TOP)
+greenbutton= Button(nwin, text= "Green", fg= "black", bg= "green")
+greenbutton.pack(side= BOTTOM)
